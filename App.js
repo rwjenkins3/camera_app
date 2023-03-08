@@ -62,7 +62,7 @@ export default function App() {
       </View>
     );
   } else {
-    return(
+    return (
       <View style={styles.container}>
         <Image source={{uri: image.uri}} style={styles.camera} />
         <View style={styles.controlContainer}>
